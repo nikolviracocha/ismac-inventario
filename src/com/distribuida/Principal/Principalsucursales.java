@@ -19,16 +19,16 @@ public class Principalsucursales {
 		//CRUD : CREATE , READ , UPDATE ,DELETE
 		
 		//ADD
-		sucursales sucursales1 = new sucursales(0,"sucursal 004","av.vella flora","0989876945");
-		//sucursalesDAO.add(sucursales1);
+		sucursales sucursales1 = new sucursales(0,"sucursal 007","av.buenos aires","0996877894");
+	    //sucursalesDAO.add(sucursales1);
 		
 		//UP
-		sucursales sucursales2 = new sucursales(6,"sucursal5","av.miravalle","0987648532");
-		//sucursalesDAO.up(sucursales2);
+		sucursales sucursales2 = new sucursales(11,"sucursal 006","av.san velasco","0988779648");
+		sucursalesDAO.up(sucursales2);
 		
 		//DEL
-		sucursalesDAO.del(6);
-		System.out.println("*************** DEL***********"+sucursalesDAO.findOne(6));
+		sucursalesDAO.del(11);
+		System.out.println("*************** DEL***********"+sucursalesDAO.findOne(11));
 		
 		//findAll
 		//List<sucursales> sucursales = sucursalesDAO.findAll();
